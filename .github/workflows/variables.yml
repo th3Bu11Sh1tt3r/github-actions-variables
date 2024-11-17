@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Echo ACCESS_ID
+    - name: Echo ACCESS_ID var
       run: echo $ACCESS_ID
