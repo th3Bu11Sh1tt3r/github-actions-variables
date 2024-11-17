@@ -12,4 +12,4 @@ jobs:
 
     steps:
     - name: Echo ACCESS_ID var
-      run: echo $ACCESS_ID
+      run: echo ${{ secrets.ACCESS_ID }}
